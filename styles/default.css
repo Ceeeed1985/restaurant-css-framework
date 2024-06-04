@@ -4,10 +4,34 @@
 
   .nav-link:hover{
     font-weight: bold;
-
   }
 
   .nav-link:active{
     text-decoration: underline;
   }
-  
+
+  .jumbotron-background{
+    background-image: url(/pictures/background_home.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .menu-defilant{
+    overflow: hidden;
+  }
+
+  .menu-defilant > :first-child{
+    font-size: 1.2em;
+    display: inline-block;
+    animation: defilement-rtl 20s infinite linear;
+  }
+
+  @keyframes defilement-rtl {
+    0% {
+        transform: translate3d(-100%,0,0)
+    }
+    100%{
+        transform: translate3d(210%,0,0);
+    }
+  }
