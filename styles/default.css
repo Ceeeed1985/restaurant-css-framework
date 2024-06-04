@@ -35,3 +35,7 @@
         transform: translate3d(210%,0,0);
     }
   }
+
+  .btn-warning:hover {
+    font-weight: bold;
+  }
