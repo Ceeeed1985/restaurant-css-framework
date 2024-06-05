@@ -23,7 +23,7 @@ body {
 }
 
 .accueil {
-  background: url(./pictures/background_home.jpg);
+  background: url(/pictures/background_home.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
