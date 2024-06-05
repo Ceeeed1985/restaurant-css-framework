@@ -37,6 +37,10 @@
     animation: defilement-rtl 20s infinite linear;
   }
 
+  .menu-defilant > :first-child:hover {
+    animation-play-state: paused;
+  }
+
   @keyframes defilement-rtl {
     0% {
         transform: translate3d(-100%,0,0)
