@@ -56,5 +56,9 @@ body {
   font-weight: bold;
 }
 
-/*Page contact*/
+/*Page menu*/
 
+.background-menu{
+  background: url(/pictures/background_menu.png);
+  background-repeat: repeat;
+}
