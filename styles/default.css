@@ -52,13 +52,9 @@ body {
   }
 }
 
-.btn-warning:hover {
-  font-weight: bold;
-}
-
 /*Page menu*/
 
-.background-menu{
+.background-menu {
   background: url(/pictures/background_menu.png);
   background-repeat: repeat;
 }
