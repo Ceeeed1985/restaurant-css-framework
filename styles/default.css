@@ -23,7 +23,7 @@ body {
 }
 
 .accueil {
-  background: url(https://upload.wikimedia.org/wikipedia/commons/1/12/Brasserie_Vagenende_2.jpg);
+  background: url(/pictures/background_home_02.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
@@ -67,8 +67,3 @@ body {
   background: url(/pictures/fond_ustensiles.png);
   background-repeat: repeat;
 }
-
-/* .background-pictures {
-  background: url(/pictures/pellicule_02.png);
-  background-repeat: repeat-x;
-} */
