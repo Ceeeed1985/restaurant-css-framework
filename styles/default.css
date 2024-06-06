@@ -12,9 +12,15 @@
 
 .nav-link:hover {
   font-weight: bold;
+  text-decoration: underline;
+  text-underline-offset: 12px;
 }
 
-.nav-link:active {
+.nav-link:focus {
+  text-decoration: underline;
+}
+
+.nav-link:visited {
   text-decoration: underline;
 }
 
