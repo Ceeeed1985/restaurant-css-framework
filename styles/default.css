@@ -63,8 +63,12 @@ body {
 
 /* Page pictures */
 
-.background-pel {
-  background: url(/pictures/pellicule.png);
-  background-repeat: repeat-x;
+.background-pictures {
+  background: url(/pictures/fond_ustensiles.png);
+  background-repeat: repeat;
 }
 
+/* .background-pictures {
+  background: url(/pictures/pellicule_02.png);
+  background-repeat: repeat-x;
+} */
