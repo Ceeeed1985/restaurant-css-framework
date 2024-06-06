@@ -54,7 +54,6 @@ body {
 
 /* Page à propos */
 
-
 /*Page menu*/
 
 .background-menu {
@@ -62,3 +61,14 @@ body {
   background-repeat: repeat;
 }
 
+/* Page pictures */
+
+.background-pictures {
+  background: url(/pictures/fond_ustensiles.png);
+  background-repeat: repeat;
+}
+
+/* .background-pictures {
+  background: url(/pictures/pellicule_02.png);
+  background-repeat: repeat-x;
+} */
