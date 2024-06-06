@@ -54,11 +54,17 @@ body {
 
 /* Page à propos */
 
-
 /*Page menu*/
 
 .background-menu {
   background: url(/pictures/background_menu.png);
   background-repeat: repeat;
+}
+
+/* Page pictures */
+
+.background-pel {
+  background: url(/pictures/pellicule.png);
+  background-repeat: repeat-x;
 }
 
