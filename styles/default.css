@@ -82,14 +82,14 @@ body {
 /*Page menu*/
 
 .background-menu {
-  background: url(/pictures/background_menu.png);
+  background: url("https://raw.githubusercontent.com/Ceeeed1985/restaurant-css-framework/main/pictures/background_menu.png");
   background-repeat: repeat;
 }
 
 /* Page pictures */
 
 .background-pictures {
-  background: url(/pictures/fond_ustensiles.png);
+  background: url("https://raw.githubusercontent.com/Ceeeed1985/restaurant-css-framework/main/pictures/fond_ustensiles.png");
   background-repeat: repeat;
 }
 
