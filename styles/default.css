@@ -16,12 +16,10 @@
   text-underline-offset: 12px;
 }
 
-.nav-link:focus {
+.nav-link.active {
   text-decoration: underline;
-}
-
-.nav-link:visited {
-  text-decoration: underline;
+  text-underline-offset: 12px;
+  font-weight: bold;
 }
 
 body {
