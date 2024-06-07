@@ -35,24 +35,51 @@ body {
   overflow: hidden;
 }
 
-.menu-defilant > :first-child {
-  font-size: 1.2em;
-  display: inline-block;
-  animation: defilement-rtl 20s infinite linear;
+
+@media (max-width :767.98px){
+  .menu-defilant > :first-child {
+    font-size: 1.2em;
+    display: inline-block;
+    animation: defilement-rtl-mobile 10s infinite linear;
+  }
+
+  .menu-defilant > :first-child:hover {
+    animation-play-state: paused;
+  }
 }
 
-.menu-defilant > :first-child:hover {
-  animation-play-state: paused;
-}
-
-@keyframes defilement-rtl {
+@keyframes defilement-rtl-mobile {
   0% {
-    transform: translate3d(160%, 0, 0);
+    transform: translate3d(100%, 0, 0);
   }
   100% {
     transform: translate3d(-100%, 0, 0);
   }
 }
+
+
+
+@media (min-width :768px){
+  .menu-defilant > :first-child {
+    font-size: 1.2em;
+    display: inline-block;
+    animation: defilement-rtl-desk 20s infinite linear;
+  }
+
+  .menu-defilant > :first-child:hover {
+    animation-play-state: paused;
+  }
+}
+
+@keyframes defilement-rtl-desk {
+  0% {
+    transform: translate3d(210%, 0, 0);
+  }
+  100% {
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
 
 /* Page à propos */
 
