@@ -73,3 +73,10 @@ body {
   background: url(/pictures/fond_ustensiles.png);
   background-repeat: repeat;
 }
+
+
+/* Animation des logos réseaux sociaux */
+
+.logo_anime:hover{
+  transform: scale(1.2);
+}
