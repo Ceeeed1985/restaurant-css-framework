@@ -10,13 +10,11 @@
 
 .nav-link:hover {
   font-weight: bold;
-  text-decoration: underline;
-  text-underline-offset: 12px;
+  border-bottom: 1px solid #ffc107;
 }
 
 .nav-link.active {
-  text-decoration: underline;
-  text-underline-offset: 12px;
+  border-bottom: 1px solid #ffc107;
   font-weight: bold;
 }
 
